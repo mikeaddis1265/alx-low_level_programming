@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- * main-Entry pint
+ * main - Entry point
  *
- * Return: Always o (success)
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
