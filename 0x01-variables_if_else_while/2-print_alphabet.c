@@ -12,4 +12,5 @@ while(letter<='z')
     letter++;  
 }
 printf("\n");
+return(0);
 }
