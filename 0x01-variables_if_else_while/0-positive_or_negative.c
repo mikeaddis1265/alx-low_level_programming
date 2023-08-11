@@ -3,7 +3,6 @@
 #include <time.h>
 /* more headers go here */
 /* betty style doc for function main goes here */
-
 /**
  * main - Entry point
  *
