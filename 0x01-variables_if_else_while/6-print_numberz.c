@@ -14,5 +14,6 @@ while (i <= 9)
 putchar('0' + i);
 i++;
 }
-return(0);
+putchar('\n');
+return (0);
 }
