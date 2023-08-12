@@ -12,12 +12,11 @@ while(letter <= 'z')
 printf("%c",letter);
 letter ++;
 }
-printf("\n");
 /*print all upper case letters code*/
-letter='A';
-while(letter <= 'Z')
+letter = 'A';
+while( letter <= 'Z')
 {
-printf("%c",letter);
+printf(" %c ",letter);
 letter ++;
 }
 printf("\n");
