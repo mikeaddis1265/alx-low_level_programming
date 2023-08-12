@@ -19,9 +19,13 @@ for (j = 0; j <= 9; j++)
 {
 putchar('0' + i);
 putchar('0' + j);
+if (i != 8 || j != 9 )
+{
 putchar(',');
 putchar(' ');
 }
 }
-return (0);   
+}
+return (0); 
+putchar('\n'); 
 } 
