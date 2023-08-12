@@ -11,14 +11,14 @@ int main()
 {	int i;
 	int j;
 	int k;
-	int z;
+	int z = 1;
 	for (i = 0; i <= 9; i++)
 	{
 		for (j = 0; j <= 8; j++)
 		{
 			for ( k = 0; k <= 9; k++)
 			{
-				for ( z = 0; z <= 9; z++)
+				for (; z <= 9; z++)
 				{	
 					putchar(i + '0');
 					putchar(j + '0');
@@ -31,6 +31,7 @@ int main()
 					putchar(' ');
 			 	}	
 			 	}	
+				z = 0 ;
 			}	
 				
 		}	
