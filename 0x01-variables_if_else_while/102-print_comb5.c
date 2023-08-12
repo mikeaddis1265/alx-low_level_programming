@@ -28,6 +28,7 @@ int main()
 			  	if( i != 9 || j != 8 || k != 9 || z != 9 )
 				{
 					putchar(',');
+					putchar(' ');
 			 	}	
 			 	}	
 			}	
