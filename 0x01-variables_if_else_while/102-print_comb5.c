@@ -1,41 +1,37 @@
-#include<stdio.h>
+#include <stdio.h>
 
-/*
- * main - starting point
+/**
+ *main - Starting point
  *
- * Description : print all combination of two two-digit numbers
+ *Return: 0
  *
- * return 0
- * */
-int main()
-{	int i;
-	int j;
-	int k;
-	int z = 1;
-	for (i = 0; i <= 9; i++)
+ *Descripitions: Prints all possible different combinations of two two digits
+ */
+
+int main(void)
+{
+	int num, num1;
+
+	for (num = 0; num <= 99; num++)
 	{
-		for (j = 0; j <= 8; j++)
+		for (num1 = 0; num1 <= 99; num1++)
 		{
-			for ( k = 0; k <= 9; k++)
+			if (num < num1)
 			{
-				for (; z <= 9; z++)
-				{	
-					putchar(i + '0');
-					putchar(j + '0');
-					putchar(' ');
-					putchar(k + '0');
-					putchar(z + '0');
-			  	if( i != 9 || j != 8 || k != 9 || z != 9 )
+				putchar(num / 10 + '0');
+				putchar(num % 10 + '0');
+				putchar(' ');
+				putchar(num1 / 10 + '0');
+				putchar(num1 % 10 + '0');
+				if (num < 98)
 				{
 					putchar(',');
 					putchar(' ');
-			 	}	
-			 	}	
-				z = 0 ;
-			}	
-				
-		}	
+				}
+			}
+		}
 	}
-return (0);	
-}	
+	putchar('\n');
 
+	return (0);
+}
