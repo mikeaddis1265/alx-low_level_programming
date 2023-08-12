@@ -12,8 +12,7 @@ char letter = 'a';
 while (letter <= 'z')
 {
 putchar(letter);
-letter++;  
-
+letter++;
 }
 printf("\n");
 return (0);
