@@ -2,7 +2,7 @@
 /**
  * main - Starting point
  *
- * Description: print reverse order
+ * Description: print hexa numbers
  *
  * Return: 0
  */
