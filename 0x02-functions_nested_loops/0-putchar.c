@@ -9,8 +9,7 @@
 int main(void)
 {
 	char name[] = "_putchar";
-	int i = 0;
-
+	int i = 0;	
 	/*use for loop to print out each character*/
 	for (; i < 8; i++)
 	{
