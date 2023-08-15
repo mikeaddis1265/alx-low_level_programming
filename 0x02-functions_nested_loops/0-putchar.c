@@ -1,11 +1,11 @@
 #include "main.h"
 /*
  * using header file to use programmers' functions
- * main -starting point function
  * Description -a program to print a word
  * exit main-after execution the main function will close
  */
 
+/*main funtion -entry point*/
 int main(void)
 {
 	char name[] = "_putchar";
