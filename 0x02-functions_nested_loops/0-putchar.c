@@ -1,10 +1,9 @@
 #include "main.h"
 /*
- * using header file to use programmers funtions
- * 
- * main -starting point funtion
+ * using header file to use programmers' functions 
+ * main -starting point function
  * Description -a program to print a word
- * exit main-after excetion the main funtion will close
+ * exit main-after execution the main function will close
  */
 
 int main(void)
@@ -20,4 +19,3 @@ int main(void)
 	_putchar('\n');
 return (0);
 }
-
