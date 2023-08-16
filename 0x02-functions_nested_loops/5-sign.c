@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * _isalpha -checks for sign of an integer number
+ * sign -checks for sign of an integer number
  *
- * input : int type 
+ * n : int type
  *
  * Return: 1 and print + if number is greater than zero
  * Return: 0 and prints 0 if n is zero
@@ -15,7 +15,7 @@ int print_sign(int n)
 		_putchar('+');
 		return (1);
 	}
-	else if ( n < 0)
+	else if (n < 0)
 	{
 		_putchar('-');
 		return (-1);
