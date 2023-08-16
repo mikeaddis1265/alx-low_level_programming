@@ -13,17 +13,6 @@ int main(void)
     return (0);
 }
 /*
- _putchar - Starting point
- *
- * Description: print out a character to stdout
- *
- * Return: and integer
-*/
-int _putchar(char c)
-{
-    return (write(1, &c, 1));
-}
-/*f
 print_alphabet - Starting point
  *
  * Description: display all alphabet
