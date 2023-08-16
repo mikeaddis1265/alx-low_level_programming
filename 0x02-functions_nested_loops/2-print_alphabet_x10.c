@@ -7,12 +7,10 @@
 void print_alphabet_x10(void)
 {
 	int i = 0;
-	while (i<10)
-	{
+	while (i < 10)
+	{	/* print_aphabet()-usd to prit all alphabets in small letter*/
 		print_alphabet();/* call the upper function */
 		i++;
 	}
-	
-	
 }
- 
+
