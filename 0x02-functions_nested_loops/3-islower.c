@@ -1,6 +1,6 @@
 #include "main.h"
 /*
- * 3-islower.c -is a function to check is a character is small lertter of not
+ * _:islower.c -is a function to check is a character is small lertter of not
  * Returns 1 if c is lowercass
  * returns o otherwise
  */
