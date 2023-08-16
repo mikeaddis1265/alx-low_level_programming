@@ -1,16 +1,24 @@
 #include "main.h"
-/*
- * 2-print_alphabet_x10 -prints smallleter alphabets 10 times
- * return - always 0
+/**
+ * print_alphabet_x10 - prints 10 times the alphabet, in lowercase
+ *
+ * followed by a new line
+ *
+ * Return: nothing
  */
 
 void print_alphabet_x10(void)
 {
+	char c = 'a';
 	int i = 0;
-	while (i < 10)
-	{	/* print_aphabet()-usd to prit all alphabets in small letter*/
-		print_alphabet();/* call the upper function */
-		i++;
+
+	for (; i < 10; i++)
+	{
+		for (; c <= 'z'; c++)
+		{
+			_putchar(c);
+		}
+		_putchar(10);
 	}
 }
 
