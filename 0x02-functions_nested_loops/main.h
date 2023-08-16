@@ -13,6 +13,8 @@ int print_sign(int n);
 int _abs(int);
 /*function to print the last digit of a number */
 int print_last_digit(int);
+/* fumction print all minute and secod of a day */
+void jack_bauer(void);
 #endif /* MAIN_H */
 
 
