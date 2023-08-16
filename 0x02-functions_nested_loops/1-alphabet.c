@@ -11,22 +11,34 @@ int _putchar(char c);
  */
 int main(void)
 {
-    print_alphabet();    
+    print_alphabet();
     return (0);
 }
-/*funtion to proint one character*/
+/*
+ _putchar - Starting point
+ *
+ * Description: print out a character to stdout
+ *
+ * Return: and integer
+*/
 int _putchar(char c)
 {
-	return (write(1, &c, 1));
+    return (write(1, &c, 1));
 }
-/*funtion to print all small letter alphbets*/  
+/*f
+print_alphabet - Starting point
+ *
+ * Description: display all alphabet
+ *
+ * Return: it does not return anything
+ * */
 void print_alphabet(void)
 {
     char letter = 'a';
     while (letter <= 'z')
     {
-        _putchar(letter); // Corrected this line to pass the variable letter
-       letter++;
+        _putchar(letter);/*Corrected this line to pass the variable letter*/
+        letter++;
     }
     _putchar('\n');
 }
