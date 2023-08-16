@@ -11,6 +11,8 @@ int _isalpha(int c);
 int print_sign(int n);
 /*function to get absolute value of number*/
 int _abs(int);
+/*function to print the last digit of a number */
+int print_last_digit(int);
 #endif /* MAIN_H */
 
 
