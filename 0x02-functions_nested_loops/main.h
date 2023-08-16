@@ -9,6 +9,8 @@ int _islower(int c);
 int _isalpha(int c);
 /*function to print sign of a number */
 int print_sign(int n);
+/*function to get absolute value of number*/
+int _abs(int);
 #endif /* MAIN_H */
 
 
