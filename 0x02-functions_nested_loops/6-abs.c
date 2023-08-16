@@ -1,4 +1,4 @@
-include "main.h"
+#include "main.h"
 /**
  * abc -get absolute value of number
  *
@@ -11,5 +11,6 @@ include "main.h"
 int _abs(int n )
 {
 	return (n >= 0) ? n : -n;
+
 }
 
