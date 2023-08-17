@@ -17,6 +17,8 @@ int print_last_digit(int);
 void jack_bauer(void);
 /* function that prints 9 times table */
 void times_table(void);
+/*add funtion*/
+int add(int, int);
 #endif /* MAIN_H */
 
 
