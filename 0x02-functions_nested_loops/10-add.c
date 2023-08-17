@@ -8,6 +8,7 @@
  *
  * Return : result of the sum
  */
+/* add - is a funtion that calcullate sum */
 int add(int x, int y)
 {
 	/*return the sum */
