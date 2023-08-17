@@ -19,6 +19,8 @@ void jack_bauer(void);
 void times_table(void);
 /*add funtion*/
 int add(int, int);
+/* print_to_98 -function that print all natural numbers form n to 98 */
+void print_to_98(int n);
 #endif /* MAIN_H */
 
 
