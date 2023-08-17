@@ -15,6 +15,8 @@ int _abs(int);
 int print_last_digit(int);
 /* fumction print all minute and secod of a day */
 void jack_bauer(void);
+/* function that prints 9 times table */
+void times_table(void);
 #endif /* MAIN_H */
 
 
