@@ -23,5 +23,7 @@ int add(int, int);
 void print_to_98(int n);
 /*_isupper check if a letter is an uppercase*/
 int _isupper(int c);
+/*check digit*/
+int _isdigit(int c);
 #endif /* MAIN_H */
 
