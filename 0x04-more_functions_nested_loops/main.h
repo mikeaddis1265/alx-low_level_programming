@@ -25,5 +25,6 @@ void print_to_98(int n);
 int _isupper(int c);
 /*check digit*/
 int _isdigit(int c);
+int mul(int a, int b);
 #endif /* MAIN_H */
 
