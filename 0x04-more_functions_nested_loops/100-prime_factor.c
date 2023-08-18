@@ -8,7 +8,7 @@
 int main(void)
 {
         unsigned int long n = 612852475143;
-         unsigned int long maxprime = -1;
+         unsigned int long  maxprime = -1;
 
         /*divide the nummber by 2 until it becomes odd*/
 
