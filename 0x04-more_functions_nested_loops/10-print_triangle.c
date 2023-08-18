@@ -1,7 +1,6 @@
 #include "main.h"
 /**
- *
- * print_triangle - fuction prints triangle
+ *print_triangle - fuction prints triangle
  *
  *size -int type
  *
@@ -9,9 +8,9 @@
  */
 void print_triangle(int size)
 {
- int i = 1;
- int j;
- int k;
+	int i = 1;
+	int j;
+	int k;
 
 if (size    >   0)
 {
