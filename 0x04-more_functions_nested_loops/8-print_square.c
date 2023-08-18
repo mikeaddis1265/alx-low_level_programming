@@ -3,7 +3,7 @@
 /**
  * print_square -function print square diagram
  *
- * @size- is int type variabel
+ * size- is int type variabel
  *
  * Return -nothing
  *
@@ -14,13 +14,15 @@ void print_square(int size)
 	{
 		_putchar('\n');
 	}
-	else 
-	{	
+	else
+	{
 		int i = 0;
-	
+
+
 	for (; i < size; i++)
 	{
 		int j = 0;
+
 		for (; j < size; j++)
 		{
 			_putchar(35);
