@@ -29,6 +29,8 @@ Inside the `3-puts` directory, you can find a C function that prints a string fo
 ## Reverse String
 
 The `4-print_rev` directory contains a C function that prints a string in reverse order followed by a new line.
+## Contributions
+This repository is a collection of ALX School projects. Contributions are not typically accepted as they are assignments meant for individual learning. If you're looking to contribute to open-source projects, we encourage you to explore other repositories that actively seek contributions.
 
 ## How to Compile and Run
 
@@ -41,5 +43,4 @@ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 0-main.c 0-reset_to_98.c -o 0-res
 ./0-reset_to_98
 
 
-Contributions
-This repository is a collection of ALX School projects. Contributions are not typically accepted as they are assignments meant for individual learning. If you're looking to contribute to open-source projects, we encourage you to explore other repositories that actively seek contributions.
+
