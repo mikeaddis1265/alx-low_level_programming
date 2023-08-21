@@ -40,15 +40,6 @@ Here's an example of how to compile and run a project:
 gcc -Wall -pedantic -Werror -Wextra -std=gnu89 0-main.c 0-reset_to_98.c -o 0-reset_to_98
 ./0-reset_to_98
 
-Certainly! A README file is a great way to provide information and context about your projects. Here's an example of what your README file might look like:
-
-markdown
-Copy code
-# ALX Low-Level Programming - Pointers, Arrays, and Strings
-
-This repository contains a collection of C programming projects related to pointers, arrays, and strings. Each project focuses on different aspects of low-level programming using C.
-
-
 Contributions
 This repository is a collection of ALX School projects. Contributions are not typically accepted as they are assignments meant for individual learning.
 
