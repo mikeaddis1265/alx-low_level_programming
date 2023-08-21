@@ -40,7 +40,6 @@ Here's an example of how to compile and run a project:
 gcc -Wall -pedantic -Werror -Wextra -std=gnu89 0-main.c 0-reset_to_98.c -o 0-reset_to_98
 ./0-reset_to_98
 
-##Contributions
-This repository is a collection of ALX School projects. Contributions are not typically accepted as they are assignments meant for individual learning.
 
-
+Contributions
+This repository is a collection of ALX School projects. Contributions are not typically accepted as they are assignments meant for individual learning. If you're looking to contribute to open-source projects, we encourage you to explore other repositories that actively seek contributions.
