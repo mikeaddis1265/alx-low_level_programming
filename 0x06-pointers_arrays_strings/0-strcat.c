@@ -11,7 +11,6 @@ char *_strcat(char *dest, char *src)
 
 	while (*dest)
 	{
-	
 		dest++;
 	}
 
@@ -22,6 +21,5 @@ char *_strcat(char *dest, char *src)
 		src++;
 	}
 		*dest = '\0';
-    return  (original_dest);
+return  (original_dest);
 }
-
