@@ -1,5 +1,5 @@
 /**
- * _strcpy - Copies a string including the null-terminator.
+ * _strcat - Copies a string including the null-terminator.
  * @dest: Pointer to the destination string.
  * @src: Pointer to the source string.
  *
@@ -10,7 +10,8 @@ char *_strcat(char *dest, char *src)
 	char *original_dest = dest;
 
 	while (*dest)
-	{	
+	{
+	
 		dest++;
 	}
 
@@ -21,7 +22,6 @@ char *_strcat(char *dest, char *src)
 		src++;
 	}
 		*dest = '\0';
-
     return  (original_dest);
 }
 
