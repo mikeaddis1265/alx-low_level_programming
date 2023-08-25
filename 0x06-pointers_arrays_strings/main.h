@@ -8,4 +8,5 @@ void reverse_array(int *a, int n);
 char *string_toupper(char *c);
 char *cap_string(char *str);
 int _putchar(char c);
+char *leet(char *p);
 #endif /* MAIN_H */
