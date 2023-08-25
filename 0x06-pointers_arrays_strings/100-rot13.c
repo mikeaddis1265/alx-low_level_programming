@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- *root13 : function that encodes string using rot12 encryption
- *@p : pointer to string
+ * root13 : function that encodes string using rot12 encryption
+ * @p : pointer to string
  *
  * Return : pointer to  the string pointer p
  */
@@ -23,8 +23,9 @@ char *rot13(char *p)
 			{
 				p[i] = p[i] - 13;
 			}
-		}		
+			i++;
+		}
+		i++;
 	}
 	return (original_p);
 }
-
