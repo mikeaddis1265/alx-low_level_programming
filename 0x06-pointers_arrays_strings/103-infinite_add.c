@@ -1,22 +1,19 @@
-#include "main.h"
+
 /**
  * infinite_add - adds two numbers
  * @n1: number one.
  * @n2: number two.
  * @r: buffer that the function will use to store the result.
- * @size_r: buffer size:
+ * @size_r: buffer size.
  * Return: the pointer to dest.
  */
-
 char *infinite_add(char *n1, char *n2, char *r, int size_r) {
     int len1 = 0;
     int len2 = 0;
-
     int digit1;
     int digit2;
     int sum;
     int carry = 0;
-
     char temp;
     int start = 0;
     int end;
@@ -57,3 +54,4 @@ char *infinite_add(char *n1, char *n2, char *r, int size_r) {
 
     return r;
 }
+
