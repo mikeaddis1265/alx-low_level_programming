@@ -16,6 +16,7 @@ int main(int argc, char* argv[])
 	if (argc == 1)
 	{
 		printf("0\n");
+		return (0);
 
 	}
 	else
@@ -32,10 +33,9 @@ int main(int argc, char* argv[])
 				return (1);
 			}	
 		}
+			printf("%d\n", result);
+			return (0);
+		
 	}
-
-		printf("%d\n", result);
-		return (0);
-
 }
 
