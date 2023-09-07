@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 #include <stdlib.h>
 
 /**
@@ -7,7 +6,8 @@
  *
  * @b : size of memory to be allocated
  *
- * Return : pointer to the base address of the memory 
+ * Return : pointer to the base address of the memory
+ *  if malloc fails, status value is equal to 98
  *
  */
 
@@ -24,5 +24,4 @@ void *malloc_checked(unsigned int b)
 	}
 
 	return (p);
-		
 }
