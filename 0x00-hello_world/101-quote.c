@@ -1,4 +1,3 @@
-/**
  * main - Start
  *
  * Return: Always 1 (Error)
