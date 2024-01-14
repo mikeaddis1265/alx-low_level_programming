@@ -10,9 +10,13 @@ comes along with unused variables or parameters.
   *  If the program is renamed, the program will print the new name without having
     to be compiled again.
   *  he path should not be removed before the name of the program
+    
+* **1. Silence is an argument carried out by other means**
+  * [1-args.c](./1-args.c): C program that prints the number of arguments passed to
+  it, followed by a new line.
 
-**1. Silence is an argument carried out by other means**
 **2. The best argument against democracy is a five-minute conversation with the average voter**
+   *
 **3. Neither irony nor sarcasm is  argument**
 **4. To infinity and beyond**
 **5. Minimal Number of Coins for Change**
