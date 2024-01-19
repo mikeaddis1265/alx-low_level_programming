@@ -44,7 +44,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	{
 		if (m < i)
 			ptr[m] = s1[m];
-		if (m >= i)
+		else
 			ptr[m] = s2[m - i];
 	}
 		ptr[m] = '\0';
