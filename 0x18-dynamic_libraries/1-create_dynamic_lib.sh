@@ -1,3 +1,4 @@
 #!/usr/bin/bash
-g++-c -fPIC *.c
-g++ -shared -o liball.so *.o
+gcc-c -fPIC *.c
+gcc -shared -o liball.so *.o
+export LD_LIBRSRY_PATH=$PWD:$LD_LIBRSRY_PATH
